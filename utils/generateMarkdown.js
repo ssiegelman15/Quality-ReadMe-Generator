@@ -146,7 +146,7 @@ ${data.tests}
 
 ## Questions
 
-
+Please send any questions or comments you have to ${data.email} or visit the following page: [GitHub](https://github.com/${data.github})
 
 ## License
 
