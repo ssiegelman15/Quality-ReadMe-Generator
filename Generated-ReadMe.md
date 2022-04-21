@@ -13,7 +13,7 @@
 
 ## Description
 
-This is a sample ReadMe generated using my ReadMe Generator Application.
+This is a sample ReadMe file generated using my ReadMe Generator application.
 
 ## Installation
 
@@ -21,11 +21,11 @@ npm install
 
 ## Usage
 
-kmsldf
+Clone the repo to your local machine and run node index.js in your terminal.
 
 ## Contributing
 
-sdf
+Provide your email address and Github username.
 
 ## Tests
 
@@ -33,7 +33,7 @@ npm test
 
 ## Questions
 
-Please send any questions or comments you have to sample@email.com or visit the following page: [GitHub](https://github.com/johndoe123)
+Please send any questions or comments you have to sample@host.com or visit the following page: [GitHub](https://github.com/johndoe123)
 
 ## License
 
