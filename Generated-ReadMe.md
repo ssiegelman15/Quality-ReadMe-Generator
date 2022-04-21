@@ -1,4 +1,4 @@
-# Sample ReadMe Generation
+# Sample Generated ReadMe
 
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
@@ -13,7 +13,7 @@
 
 ## Description
 
-This is a sample of a ReadMe generated from this application.
+This is a sample ReadMe generated using my ReadMe Generator Application.
 
 ## Installation
 
@@ -21,11 +21,11 @@ npm install
 
 ## Usage
 
-Instructions for how to properly use this application.
+kmsldf
 
 ## Contributing
 
-Requirements for potential contributors.
+sdf
 
 ## Tests
 
@@ -33,7 +33,7 @@ npm test
 
 ## Questions
 
-Please send any questions or comments you have to sample@host.com or visit the following page: [GitHub](https://github.com/johndoe123)
+Please send any questions or comments you have to sample@email.com or visit the following page: [GitHub](https://github.com/johndoe123)
 
 ## License
 
