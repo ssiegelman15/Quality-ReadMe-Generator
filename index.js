@@ -64,7 +64,7 @@ function init() {
   inquirer
     .prompt(questions)
     .then((input) => {
-      writeToFile('.Generated-ReadMe.md', generateMarkdown(input))
+      writeToFile('Generated-ReadMe.md', generateMarkdown(input))
     })
 }
 
