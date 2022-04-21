@@ -29,13 +29,29 @@ const questions = [
     type: 'checkbox',
     name: 'license',
     message: "What kind of license should your project have?",
-    choices: ['MIT','APACHE 2.0','GPL 3.0', 'BSD 3', 'None of the above'],
+    choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', 'None of the above'],
   },
-
-
-
-  "What command should be run to install dependencies?",
-  "What command should be run to run tests?", "What does the used need to know about using the repo?", "What does the user need to know about contributing to the repo?"];
+  {
+    type: 'input',
+    name: 'install',
+    message: "What command should be run to install dependencies?",
+  },
+  {
+    type: 'input',
+    name: 'tests',
+    message: "What command should be run to run tests?",
+  },
+  {
+    type: 'input',
+    name: 'repo-use',
+    message: "What does the used need to know about using the repo?"
+  },
+  {
+    type: 'input',
+    name: 'repo-use',
+    message: "What does the used need to know about contributing to the repo?"
+  }
+];
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) { }
