@@ -66,7 +66,7 @@ function init() {
     .then((input) => {
       writeToFile('.Generated-ReadMe.md', generateMarkdown(input))
     })
- }
+}
 
 // Function call to initialize app
 init();
