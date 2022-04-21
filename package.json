@@ -10,5 +10,14 @@
   "license": "ISC",
   "dependencies": {
     "inquirer": "^6.5.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssiegelman15/ReadMe-Generator-WK09.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/ssiegelman15/ReadMe-Generator-WK09/issues"
+  },
+  "homepage": "https://github.com/ssiegelman15/ReadMe-Generator-WK09#readme"
 }

@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
-const markdown = require('./utils/generateMarkdown.js');
+const generateMarkdown = require('./utils/generateMarkdown.js');
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -43,19 +43,19 @@ const questions = [
   },
   {
     type: 'input',
-    name: 'repo-use',
+    name: 'use',
     message: "What does the used need to know about using the repo?"
   },
   {
     type: 'input',
-    name: 'repo-contrib',
+    name: 'contrib',
     message: "What does the used need to know about contributing to the repo?"
   }
 ];
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-  fs.writeFile(filename, data, (err) =>
+  fs.writeFile(fileName, data, (err) =>
     err ? console.log(err) : console.log("Generating ReadMe file..."));
 }
 
@@ -64,6 +64,7 @@ function init() {
   inquirer
     .prompt(questions)
     .then((input) => {
+      console.log(input);
       writeToFile('.Generated-ReadMe.md', generateMarkdown(input))
     })
  }
