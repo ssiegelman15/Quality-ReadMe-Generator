@@ -64,7 +64,6 @@ function init() {
   inquirer
     .prompt(questions)
     .then((input) => {
-      console.log(input);
       writeToFile('.Generated-ReadMe.md', generateMarkdown(input))
     })
  }
