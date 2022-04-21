@@ -4,6 +4,7 @@
 
   ## Table of Contents
 - [Description](#description)
+- [Walkthrough](#walkthrough)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -14,6 +15,10 @@
 ## Description
 
 Application is built to take several inputs from the user and generate a high quality ReadMe file.
+
+## Walkthrough
+
+![Walkthrough](./assets/ReadMe_Generation.gif)
 
 ## Installation
 
