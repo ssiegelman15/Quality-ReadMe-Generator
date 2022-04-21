@@ -87,7 +87,7 @@ function renderLicenseSection(license) {
       You should have received a copy of the GNU General Public License
       along with this program.  If not, see ${renderLicenseLink(license)}.`;
       break;
-    
+
     case 'BSD 3':
       licenseText = `Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
@@ -101,7 +101,7 @@ function renderLicenseSection(license) {
       
       For more info, please see ${renderLicenseLink(license)}.`;
       break;
-    
+
     default:
       licenseText = '';
       break;
@@ -111,7 +111,29 @@ function renderLicenseSection(license) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
+  return `# ${data.project}
+
+  ${renderLicenseBadge(data.license)}
+
+  ## Table of Contents
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
+- [License](#license)
+
+## Description
+
+${data.description}
+
+## Installation
+
+${data.install}
+
+
+
 
 `;
 }
