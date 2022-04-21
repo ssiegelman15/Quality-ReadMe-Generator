@@ -132,8 +132,25 @@ ${data.description}
 
 ${data.install}
 
+## Usage
+
+${data.repo-use}
+
+## Contributing
+
+${data.repo-contrib}
+
+## Tests
+
+${data.tests}
+
+## Questions
 
 
+
+## License
+
+${renderLicenseSection(data.license)}
 
 `;
 }
