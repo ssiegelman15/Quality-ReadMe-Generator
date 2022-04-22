@@ -26,7 +26,7 @@ Clone the repository to your local machine.
 
 ## Usage
 
-Run npm install in your terminal to install inquirer. To start the app, run node index.js in your terminal.
+Run npm i in your terminal to install the inquirer package. To start the app, run node index.js in your terminal.
 
 ## Contributing
 
