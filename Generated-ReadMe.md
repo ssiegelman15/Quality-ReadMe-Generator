@@ -1,4 +1,4 @@
-# Sample Generated ReadMe
+# Beer Blog
 
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
@@ -13,27 +13,27 @@
 
 ## Description
 
-This is a sample ReadMe file generated using my ReadMe Generator application.
+This beer blog is a fullstack application where users can create profiles to leave beer reviews or comments on existing beer reviews
 
 ## Installation
 
-npm install
+None required.
 
 ## Usage
 
-Clone the repo to your local machine and run node index.js in your terminal.
+Visit the deployed heroku site for this blog at: https://radiant-meadow-34547.herokuapp.com/
 
 ## Contributing
 
-Provide your email address and Github username.
+Please provide your Github user name and email address
 
 ## Tests
 
-npm test
+N/A
 
 ## Questions
 
-Please send any questions or comments you have to sample@host.com or visit the following page: [GitHub](https://github.com/johndoe123)
+Please send any questions or comments you have to ssiegelman15@gmail.com or visit the following page: [GitHub](https://github.com/ssiegelman15)
 
 ## License
 
